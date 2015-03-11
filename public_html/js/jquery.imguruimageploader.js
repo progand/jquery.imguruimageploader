@@ -10,7 +10,7 @@
         // Node/CommonJS:
         factory(
             require('jquery'),
-            require('./vendor/jquery.ui.widget')
+            require('./vendor/jqueryui/jquery-ui')
         );
     } else {
         // Browser globals:
