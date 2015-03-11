@@ -4,7 +4,7 @@ Plugin based on JQuery UI Widget Factory. You can use it for upload images to ht
 
 Example usage:
 
-'''javascript
+```js
 
     var $input = $("#imgur-image-upload-input"),
             $progress = $("#imgur-image-upload-progress"),
@@ -22,4 +22,4 @@ Example usage:
         }
     });
 
-'''
+```
