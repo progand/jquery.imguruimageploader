@@ -11,7 +11,7 @@ Example usage:
             $preview = $("#imgur-image-upload-uploaded-image");
 
     $input.imgurimageuploader({
-        clientId: "0bb18c52036f017",
+        clientId: "your-client0id",
         done: function (data) {
             $preview.attr("src", data.link).fadeIn();
         },
