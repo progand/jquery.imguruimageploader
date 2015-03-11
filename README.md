@@ -11,14 +11,25 @@ You need to incluce on a page JQuery, JQueru UI and jQuery-File-Upload plugin fi
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
     <script src="js/vendor/jqueryui/jquery-ui.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
         
     <script src="js/vendor/jqueryfileupload/jquery.iframe-transport.js"></script>
     <script src="js/vendor/jqueryfileupload/jquery.fileupload.js"></script>
 
 ```
 
-Example usage:
+And include jquery.imguruimageploader script after:
+
+```html
+
+    <script src="js/jquery.imguruimageploader.js"></script>
+
+```
+
+
+Example usage
+--------------
+
+Plugin provides a few additional to jQuery-File-Upload plugin options. All of them ypu can see in the example below:
 
 ```js
 
