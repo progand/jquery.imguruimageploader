@@ -39,7 +39,7 @@
             // via this.options this.element.addStuff(); 
 
             this.element.fileupload({
-                headers: {"Authorization": "Client-ID " + clientId},
+                headers: {"Authorization": "Client-ID " + this.options.clientId},
                 url: "https://api.imgur.com/3/image",
                 dataType: "json",
                 done: $.proxy(function (e, data, jqXHR) {
