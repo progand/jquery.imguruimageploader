@@ -29,7 +29,7 @@ And include jquery.imguruimageploader script after:
 Example usage
 --------------
 
-Plugin provides a few additional to jQuery-File-Upload plugin options. All of them ypu can see in the example below:
+Plugin provides a few additional to jQuery-File-Upload plugin options. All of them yOu can see in the example below:
 
 ```js
 
