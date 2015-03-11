@@ -1,6 +1,7 @@
 # jquery.imguruimageploader
 
 Plugin based on JQuery UI Widget Factory. You can use it for upload images to https://api.imgur.com/3/image
+
 You need to allow anonymous images upload within you Imgur application settings.
 
 Requirements
