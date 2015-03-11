@@ -52,3 +52,24 @@ Plugin provides a few additional to jQuery-File-Upload plugin options. All of th
     });
 
 ```
+
+HTML markup for the example is:
+
+```html
+
+    <div class="form-group">
+        <label for="lr-image-upload-input">Image Downloader</label>                
+        <input id="imgur-image-upload-input" type="file" name="image" >                
+    </div>
+    <div class="form-group">                
+        <div class="progress">
+            <div id="imgur-image-upload-progress" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
+        </div>
+    </div>
+    <div class="form-group">
+        <img id="imgur-image-upload-uploaded-image" style="display: none; max-height: 100px" class="img-responsive img-thumbnail center-block"/>
+    </div>    
+
+```
+
+We use Twiter Bootstrap here, but you don't have to.
