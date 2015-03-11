@@ -5,6 +5,7 @@ Plugin based on JQuery UI Widget Factory. You can use it for upload images to ht
 Example usage:
 
 '''javascript
+
     var $input = $("#imgur-image-upload-input"),
             $progress = $("#imgur-image-upload-progress"),
             $preview = $("#imgur-image-upload-uploaded-image");
@@ -20,4 +21,5 @@ Example usage:
                     .attr("aria-valuenow", progressPercent);
         }
     });
+
 '''
